@@ -21,7 +21,7 @@ Package.onUse(function(api) {
     'dburles:collection-helpers@1.0.2'
   ]);
 
-  api.addFiles('document-methods.js');
+  api.addFiles(['wrap-constructor.js', 'document-methods.js']);
 });
 
 Package.onTest(function(api) {
